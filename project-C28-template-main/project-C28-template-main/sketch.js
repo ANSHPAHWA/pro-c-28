@@ -79,6 +79,7 @@ function draw() {
 
       if (board1Collision.collided || board2Collision.collided) {
         console.log("yes");
+        score+=5;
       }
 
      // [optional code to add trajectory of arrow]
